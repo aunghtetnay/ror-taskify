@@ -9,7 +9,7 @@
 ## Usage
 
 Run the following commands:</br>
-`git clone https://github.com/Hombre2014/taskify.git`</br>
+`git@github.com:aunghtetnay/taskify.git`</br>
 `cd taskify`</br>
 `bundle install`</br>
 `bin/dev`</br>
