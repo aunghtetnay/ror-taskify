@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
+  root "tasks#index"
   
-  get "tasks", to: "tasks#index"
-  resources :tasks, only: [:new, :create, :edit, :update, :destroy]
-  # ...
+  resources :tasks
+
   post "tasks/:id/toggle", to: "tasks#toggle"
 end
